@@ -91,4 +91,5 @@ var n2 = rvdf(pubKey, n1, t);
 console.log(Date.now() - start);
 
 console.log(pubKey.toString(16));
+console.log(n1.toString(16));
 console.log(n2.toString(16));
